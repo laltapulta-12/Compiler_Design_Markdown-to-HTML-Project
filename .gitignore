@@ -1,0 +1,26 @@
+# Executables / Binaries
+*.exe
+*.out
+md2html
+
+# Flex dynamic output files
+lex.yy.c
+lex.yy.h
+
+# Bison / Yacc dynamic output files
+*.tab.c
+*.tab.h
+*.output
+y.tab.c
+y.tab.h
+
+# C Object files
+*.o
+
+# VS Code & Editor settings
+.vscode/
+.idea/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
