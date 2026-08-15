@@ -12,8 +12,6 @@ static char *skip_ws(char *s) {
 }
 %}
 
-%option noyywrap
-
 %%
 
 ^"###"[^\n]* {
@@ -117,3 +115,7 @@ static char *skip_ws(char *s) {
 }
 
 %%
+
+int yywrap() {
+    return 1;
+}

@@ -9,3 +9,5 @@ This is **bold** and *italic*.
 > This is a quote.
 
 ---
+
+> This is a quote.
